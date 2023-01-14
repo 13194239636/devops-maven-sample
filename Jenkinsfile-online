@@ -13,8 +13,8 @@ pipeline {
         DOCKER_CREDENTIAL_ID = 'gitee-lizg'
         GITHUB_CREDENTIAL_ID = 'lizg'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = '1129391977@qq.com'
+        REGISTRY = '1129391977'
+        DOCKERHUB_NAMESPACE = 'private-springbootdemo-k8s'
         GITHUB_ACCOUNT = '13194239636'
         APP_NAME = 'devops-maven-sample'
     }
