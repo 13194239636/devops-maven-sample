@@ -10,7 +10,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'gitee-lizg'
+        DOCKER_CREDENTIAL_ID = 'dockerhub-lzg'
         GITHUB_CREDENTIAL_ID = 'lizg'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'docker.io'
